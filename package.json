@@ -1,0 +1,19 @@
+{
+  "name": "guilded-mod-bot",
+  "version": "1.0.0",
+  "description": "A moderation bot for Guilded",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nuclearhit22/guilded-mod-bot.git"
+  },
+  "author": "nuclearhit22",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/nuclearhit22/guilded-mod-bot/issues"
+  },
+  "homepage": "https://github.com/nuclearhit22/guilded-mod-bot#readme"
+}
