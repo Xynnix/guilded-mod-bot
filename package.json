@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/nuclearhit22/guilded-mod-bot/issues"
   },
-  "homepage": "https://github.com/nuclearhit22/guilded-mod-bot#readme"
+  "homepage": "https://github.com/nuclearhit22/guilded-mod-bot#readme",
+  "dependencies": {
+    "guilded.js": "^1.1.1"
+  }
 }
