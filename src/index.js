@@ -3,10 +3,8 @@ const fs = require("fs")
 const Guilded = require('guilded.js');
 const client = new Guilded.Client();
 const dotenv = require("dotenv").config();
+client.config = process.env;
 
-client.on("ready", () => {
-  console.log("ready");
-});
 fs.readdir("./events/", (err, files) => {
   if (err) return console.error(err);
   files.forEach(file => {
